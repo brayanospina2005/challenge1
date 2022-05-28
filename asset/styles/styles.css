@@ -1,0 +1,93 @@
+*,
+*::after
+*::before{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#productions{
+    width: 360px;
+    height: 489px;
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    margin-left: 21px;
+}
+
+.imagen{
+    width: 161px;
+    height: 124px;
+}
+
+.imagen img{
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+}
+.producto{
+    display: flex;
+    padding-top: 31px;
+    padding-left: 27px;
+}
+
+.preciocantidad h3:first-of-type{
+    font-size: 12px;
+    line-height: 15px;
+    color: #4e5150;
+    margin-bottom: 1rem;
+}
+
+.preciocantidad h3:nth-child(2){
+    font-size: 14px;
+    line-height: 17px;
+    color: #f2994a;
+    margin-bottom: 1.5rem;
+}
+.preciocantidad h3:nth-child(2) span{
+    text-decoration: line-through;
+    font-size: 10px;
+    line-height: 12px;
+    color: #4e5150;
+}
+
+.buttom{
+    display: flex;
+    width: 123px;
+    height: 50px;
+    border: solid 1px #828282;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.buttom button{
+    width: 20px;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    border: none;
+    padding-bottom: 25px;
+
+}
+
+hr{
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
+.totales{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 27px;
+    margin-right: 27px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 15px;
+    color: #3b3b3b;
+}
+#divisor{
+    margin-top: 4rem;
+}
